@@ -1,0 +1,356 @@
+{
+  "app": "triangulator",
+  "version": 2,
+  "exportedAt": "2026-07-25T20:15:49.529Z",
+  "state": {
+    "settings": {
+      "title": "Upskilling Labs: Signal Pool",
+      "concept": ""
+    },
+    "items": [
+      {
+        "id": "item_02",
+        "tag": "Source Extract",
+        "title": "Media Misinformation",
+        "summary": "Broad concerns regarding how misleading media and digital influencing are negatively impacting civic engagement.",
+        "source_url": "https://theupskillinglabs.org/survey/civics/results#r-3",
+        "source_label": "Field survey #3"
+      },
+      {
+        "id": "item_03",
+        "tag": "Source Extract",
+        "title": "Campaign Finance & District Competitiveness",
+        "summary": "Observations that financial influence and gerrymandering have reduced the competitiveness of congressional districts.",
+        "source_url": "https://theupskillinglabs.org/survey/civics/results#r-4",
+        "source_label": "Field survey #4"
+      },
+      {
+        "id": "item_09",
+        "tag": "Source Extract",
+        "title": "Campaign Finance",
+        "summary": "Reform efforts consistently hit roadblocks like the Citizens United decision.",
+        "source_url": "https://theupskillinglabs.org/survey/civics/results#r-10",
+        "source_label": "Field survey #10"
+      },
+      {
+        "id": "item_10",
+        "tag": "Source Extract",
+        "title": "Civic Distrust & Disinformation",
+        "summary": "A toxic combination of distrust in voting, a lack of civics literacy, and internet-era disinformation is allowing political entities to manipulate voters' worst instincts.",
+        "source_url": "https://theupskillinglabs.org/survey/civics/results#r-11",
+        "source_label": "Field survey #11"
+      },
+      {
+        "id": "item_43",
+        "tag": "Source Extract",
+        "title": "Accountability for Public Lies",
+        "summary": "Telling the truth — and holding liars accountable and responsible — is named as the missing piece of civic life.",
+        "source_url": "https://theupskillinglabs.org/survey/civics/results#r-43",
+        "source_label": "Field survey #43"
+      },
+      {
+        "id": "item_ca52c0c9-be6a-4857-a348-a38351572b54",
+        "tag": "Source Extract",
+        "title": "$ in politics",
+        "summary": "Entrenched actors (AIPAC), ideological. New actors (crypto, AI companies)",
+        "source_url": "",
+        "verified": true,
+        "source": "Civics & Elections: Signal Pool"
+      },
+      {
+        "id": "item_c37cc5b2-d05b-4deb-bea6-3d5963d54021",
+        "tag": "Source Extract",
+        "title": "voter literacy",
+        "summary": "Why do ads have such a strong effect? Why does money in elections work?",
+        "source_url": "",
+        "verified": true,
+        "source": "Civics & Elections: Signal Pool"
+      },
+      {
+        "id": "item_fb575c67-e5c8-4daf-ac2a-af7215dfe39a",
+        "tag": "Source Extract",
+        "title": "$ in politics",
+        "summary": "Entrenched actors (AIPAC), ideological. New actors (crypto, AI companies)",
+        "source_url": "",
+        "verified": true,
+        "source": "Civics & Elections: Signal Pool"
+      },
+      {
+        "id": "item_e5ea1528-9b9b-43fe-ae21-36765465d2d1",
+        "tag": "Source Extract",
+        "title": "voter literacy",
+        "summary": "Why do ads have such a strong effect? Why does money in elections work?",
+        "source_url": "",
+        "verified": true,
+        "source": "Civics & Elections: Signal Pool"
+      }
+    ],
+    "cards": [
+      {
+        "id": "card_1f6a2067-0659-4aa9-bbc1-99b7a9c13370",
+        "title": "$ has too much power in campaigns",
+        "description": "Groups can easily influence campaigns with more $",
+        "tier": 1,
+        "childIds": [
+          "item_09",
+          "item_fb575c67-e5c8-4daf-ac2a-af7215dfe39a",
+          "item_03"
+        ],
+        "cardType": null,
+        "playerRole": null
+      },
+      {
+        "id": "card_51c1d96b-3b5f-4928-a373-2d5c7cc65824",
+        "title": "People are easily persuaded by campaign ads",
+        "description": "Campaigns can influence voters easily through ads",
+        "tier": 1,
+        "childIds": [
+          "item_10",
+          "item_e5ea1528-9b9b-43fe-ae21-36765465d2d1",
+          "item_02",
+          "item_43"
+        ],
+        "cardType": null,
+        "playerRole": null
+      },
+      {
+        "id": "card_c1090cf8-3867-4665-8d4b-423cb0f7a247",
+        "title": "More $ = More Wins",
+        "description": "The more $ that groups can put into campaigns, the more elections wins they will have",
+        "tier": 2,
+        "childIds": [
+          "card_1f6a2067-0659-4aa9-bbc1-99b7a9c13370",
+          "card_51c1d96b-3b5f-4928-a373-2d5c7cc65824"
+        ]
+      },
+      {
+        "id": "card_fdb39ca0-cbf5-4366-a8dc-43181dae5c04",
+        "title": "Factcheckers powerless",
+        "description": "Objective fact checkers only have a sliver of influence compared to other vested interest",
+        "tier": 1,
+        "childIds": [
+          "item_43",
+          "item_02"
+        ],
+        "cardType": null,
+        "playerRole": null
+      },
+      {
+        "id": "card_72d1ee97-ba9f-42f3-8cd5-b2db86834df8",
+        "title": "People seek bad sources",
+        "description": "People are more persuaded by partisan messaging than not",
+        "tier": 2,
+        "childIds": [
+          "card_fdb39ca0-cbf5-4366-a8dc-43181dae5c04",
+          "card_51c1d96b-3b5f-4928-a373-2d5c7cc65824"
+        ]
+      },
+      {
+        "id": "card_51e52191-619b-4815-ab2a-3bab8e26674e",
+        "title": "$ is king",
+        "description": "$ funds more partisan sources, which is more powerful than non-partisan sources for election information.",
+        "tier": 3,
+        "childIds": [
+          "card_c1090cf8-3867-4665-8d4b-423cb0f7a247",
+          "card_72d1ee97-ba9f-42f3-8cd5-b2db86834df8"
+        ],
+        "files": [],
+        "doc": "# $ is king\n\n> **Theme** — a card in a Frame Creation web map.\n> Built from 7 signal(s). The work on this page is to *investigate the field*, not to solve.\n\n## The deeper condition\n*The universal beneath the patterns. What force or condition is hidden under the surface of everyday life here?*\n\n## Bridge test\n*Does this name BOTH a structural condition AND a human experience? A theme that lives on only one side is just a restated pattern.*\n\n## Depth test\n*Is this hidden beneath the everyday framing? Does it explain things you didn't build it from?*\n\n## The field: where else does this condition live?\n*Analogous domains where the same condition operates. What do those fields know that yours doesn't?*\n\n## Tensions it holds\n*Don't resolve them. Name the dissonance — that's where frames are born.*\n\n---\n\n## Evidence & sources\n*Primary (from the situation itself — interviews, field notes, documents) and secondary (literature, data, prior art). Attach files below; list and annotate them here.*\n\n## Where I'm not sure\n*Your confidence. What would change your mind? What would falsify this?*\n\n## Whose voice is still missing\n*Who hasn't been heard yet — and how would they complicate this?*\n"
+      }
+    ],
+    "situations": [
+      {
+        "id": "sit_85c8e753-914e-421b-8ad6-4b59710caf1b",
+        "title": "$ is too effective in campaigns",
+        "description": "Financial capital in political campaigns directly translates into narrative dominance because low voter civics literacy, media fragmentation, and partisan affinity make emotional, high-frequency advertising far more effective than non-partisan information or fact-checking.",
+        "frame": "",
+        "stakeholderMap": "",
+        "problematization": "The \"Voter as Passive Object\" Fallacy: Your current cards assume voters are merely dupes who are \"easily persuaded by ads.\" This ignores identity-driven choice—voters often want low-veracity, partisan messaging because it validates their social group identity.",
+        "box": {
+          "x": 1437.5235537164467,
+          "y": 556.5991114552701,
+          "w": 1481.1728128371742,
+          "h": 1206.3900193387365
+        },
+        "memberCardIds": [
+          "card_51e52191-619b-4815-ab2a-3bab8e26674e"
+        ],
+        "createdAt": "2026-07-25T19:53:07.543Z",
+        "fieldActors": [
+          {
+            "id": "actor_870f6975-5dde-4d7b-b97d-43bcc8258c9a",
+            "name": "Adtech & social media platform integrity",
+            "role": "inner",
+            "note": "",
+            "candidateOwner": true,
+            "approached": false
+          },
+          {
+            "id": "actor_474985e6-1fac-40a6-a19a-ca5d8f635cea",
+            "name": "Political party machinery",
+            "role": "wider",
+            "note": "",
+            "candidateOwner": false,
+            "approached": false
+          },
+          {
+            "id": "actor_0e067653-c19b-4a1d-8048-8db2355ba1bb",
+            "name": "Redistricting bodies",
+            "role": "wider",
+            "note": "",
+            "candidateOwner": false,
+            "approached": false
+          },
+          {
+            "id": "actor_79f6f2c9-c416-4d5d-9a97-044b1277148c",
+            "name": "Mega-donors and PACs",
+            "role": "inner",
+            "note": "",
+            "candidateOwner": false,
+            "approached": false
+          },
+          {
+            "id": "actor_5f280665-5cec-4caa-95ec-55c85dff6229",
+            "name": "Campaign Strategist",
+            "role": "inner",
+            "note": "",
+            "candidateOwner": false,
+            "approached": false
+          },
+          {
+            "id": "actor_6b6bb911-1712-49d1-9ecf-0897e875ddcb",
+            "name": "Low information voter",
+            "role": "inner",
+            "note": "",
+            "candidateOwner": false,
+            "approached": false
+          },
+          {
+            "id": "actor_3a0d1bd8-70e3-4fe5-99b6-68754c64d660",
+            "name": "Fact checkers",
+            "role": "inner",
+            "note": "",
+            "candidateOwner": true,
+            "approached": false
+          }
+        ],
+        "sharpness": {},
+        "paradoxes": [
+          {
+            "id": "pdx_aa3831b3-c3ef-4b96-ad21-8d8975d33675",
+            "text": "The Contradiction: Countering disinformation requires credible, neutral verification; but in a hyper-partisan market, the act of fact-checking is branded as partisan censorship, driving voters further into partisan media echo chambers.",
+            "beneficiary": " Who Benefits: Partisan media outlets and partisan campaigns.",
+            "actorId": "actor_79f6f2c9-c416-4d5d-9a97-044b1277148c",
+            "evidenceIds": [
+              "item_43"
+            ]
+          },
+          {
+            "id": "pdx_3dbc626e-6423-4ec7-9d13-4af2fbee1778",
+            "text": "The Contradiction: Combating ad persuasion requires a more civically literate populace; but political campaigns actively spend money to bypass rational civic reasoning by targeting primitive emotional triggers (fear, anger, threat).",
+            "beneficiary": " Who Benefits: High-spend campaign strategists.",
+            "actorId": "actor_5f280665-5cec-4caa-95ec-55c85dff6229",
+            "evidenceIds": [
+              "item_10"
+            ]
+          }
+        ],
+        "openness": "- Legal/Structural Constraints: Citizens United anchors campaign spending in constitutional First Amendment protections.\n\n- Cognitive & Social Dynamics: Voters are not passive blank slates; they actively seek partisan narratives that confirm their identity (motivated reasoning).\n\n- Systemic Feedback Loops: As fact-checkers attempt to intervene, partisan actors brand the fact-checkers themselves as biased, neutralizing the intervention and deepening civic distrust.\n\n- Economic Incentives: Platform algorithms and media companies profit directly from high-conflict political ad spend.",
+        "researchAgenda": "1. Counterfactual Analysis\n\n    What to find out: In which electoral contexts (e.g., high-visibility statewide races vs. ballot initiatives) does high campaign spend fail to deliver wins, and what neutralizes its impact?\n\n    Method: Secondary literature review & electoral dataset analysis.\n\n    Tool: Perplexity (for grounded historical sweep) + OpenSecrets database.\n\n    What it would change: Prevents treating financial persuasion as an absolute law and identifies environmental conditions that weaken ad efficacy.\n\n2. Player Dynamics & Ad Efficacy Mechanism\n\n    What to find out: How do political media buyers and campaign strategists evaluate the ROI of ad spend against voter skepticism and fact-checkers?\n\n    Method: Expert qualitative interviews (3–5 campaign consultants across parties).\n\n    Tool: Go talk to people (field research).\n\n    What it would change: Moves the mapping from \"voters are easily duped\" to understanding the exact psychological levers media buyers optimize for.\n\n3. Tech Flux & Cost Scaling\n\n    What to find out: How are generative AI and automated ad generation altering the marginal cost per persuaded voter for under-funded campaigns vs. deep-pocket PACs?\n\n    Method: Deep research sweep on emerging political ad-tech tools and regulatory filings.\n\n    Tool: NotebookLM (synthesizing ad-tech whitepapers, FEC disclosures, and academic papers).\n\n    What it would change: Uncovers whether AI democratizes campaign outreach or exponentially widens the gap for legacy donors.",
+        "evidenceCoverage": "Problem ] ██████████ (Strong: Win rates, ad persuasion, media distrust)\n[ Value   ] ███████░░░ (Moderate: Democratic integrity vs. free expression)\n[ Problem ] ██████████ (Strong: Win rates, ad persuasion, media distrust)\n[ Value   ] ███████░░░ (Moderate: Democratic integrity vs. free expression)\n[ Player  ] ████░░░░░░ (Thin: Mentions AIPAC, Crypto, AI, but lacks roles/incentives)\n[ History ] ███░░░░░░░ (Thin: Cites Citizens United, misses historical campaign trends)\n[ Boundary] ░░░░░░░░░░ (ABSENT: No distinction by race type, geography, or district context)\n[ Flux    ] ░░░░░░░░░░ (ABSENT: Misses how AI/ad-tech shift marginal persuasion costs)\n[ Counter ] ░░░░░░░░░░ (ABSENT: No cases where heavy spend lost to grass-roots efforts)\n\nMajor Blind Spot (Flux & Boundary): You lack data on where money stops working (e.g., presidential vs. local municipal races) and how emerging tech (generative AI, micro-targeting) is changing the unit cost of political persuasion.\n\nMajor Blind Spot (Counterfactuals): You have zero evidence analyzing campaigns where outspent candidates won. Without this, you risk assuming money's power is total rather than conditional.",
+        "voicesNeeded": "Who You Need to Hear From\n\n    Campaign Media Strategists / Digital Directors: People who allocate $5M+ digital ad budgets and measure real-time voter conversion metrics.\n\n    Swing/Persuadable Voters in Competitive Districts: Voters who changed their minds late in an election cycle despite being bombarded with conflicting ads.\n\n    Professional Fact-Checkers (e.g., PolitiFact, FactCheck.org editors): Practitioners experiencing the declining trust and weaponization of their work.",
+        "accessNeeds": "Asset / Access Needed\t\t\nCampaign ROI & Targeting Datasets\t\nBarrier\nProprietary corporate & political consultancy data.\t\nRealistic Path to Access\nAnalyze public Meta Ad Library & Google Transparency Reports; post an inquiry on the AAPC (American Association of Political Consultants) forum or LinkedIn.\nAsset / Access Needed\t\t\nDisillusioned / Persuadable Voters\t\nBarrier\nHard to isolate from general partisan noise.\t\nRealistic Path to Access\nPost a screener poll in location-specific communities (e.g., r/Pennsylvania, r/Wisconsin) seeking people who split their ticket or changed votes in 2024.\nAsset / Access Needed\t\nFact-Checker Internal Impact Metrics\t\nBarrier\nInternal newsroom data on user engagement vs. drop-off.\t\nRealistic Path to Access\nReach out via cold email to journalism researchers at the Poynter Institute or Knight First Amendment Institute.",
+        "paradox": "A healthy democracy demands an open, financially unrestricted marketplace of speech; yet those exact market mechanics allow concentrated financial capital to buy narrative control, overwhelming the truth and eroding the voter autonomy necessary for self-governance.",
+        "statusQuoBeneficiaries": "Ad-Tech & Broadcast Media Outlets: Receive billions in guaranteed, high-margin revenue every election cycle regardless of who wins.\n\nIncumbent Politicians & Specialized Interest Groups: Benefit from high financial entry barriers that insulate them from grassroots challengers.\n\nPolitical Campaign Agencies: Receive fixed percentages (often 10–15%) of total media buy spend, creating a direct incentive to urge clients to raise and dump more cash into ads."
+      }
+    ],
+    "nodes": {
+      "item_02": {
+        "x": 2475.854474114432,
+        "y": 1380.676481290837
+      },
+      "item_03": {
+        "x": 1991.2045400662112,
+        "y": 1552.9891307940065
+      },
+      "item_09": {
+        "x": 1537.5235537164467,
+        "y": 1392.7498375085606
+      },
+      "item_10": {
+        "x": 2329.7680196127058,
+        "y": 1542.9524393937281
+      },
+      "item_43": {
+        "x": 2578.696366553621,
+        "y": 1542.3520588384213
+      },
+      "item_ca52c0c9-be6a-4857-a348-a38351572b54": {
+        "x": 2638.3380142655724,
+        "y": 908.5894751778123
+      },
+      "item_c37cc5b2-d05b-4deb-bea6-3d5963d54021": {
+        "x": 994.4931820677182,
+        "y": 1800.5915528748387
+      },
+      "item_fb575c67-e5c8-4daf-ac2a-af7215dfe39a": {
+        "x": 1771.9540519454877,
+        "y": 1531.2305231696787
+      },
+      "item_e5ea1528-9b9b-43fe-ae21-36765465d2d1": {
+        "x": 2231.555111125778,
+        "y": 1412.9456582695843
+      },
+      "card_1f6a2067-0659-4aa9-bbc1-99b7a9c13370": {
+        "x": 1791.9118424927362,
+        "y": 1339.9087215897232
+      },
+      "card_51c1d96b-3b5f-4928-a373-2d5c7cc65824": {
+        "x": 2088.9054601718444,
+        "y": 1216.5182971862582
+      },
+      "card_c1090cf8-3867-4665-8d4b-423cb0f7a247": {
+        "x": 1765.4118649047537,
+        "y": 1057.8471857385
+      },
+      "card_fdb39ca0-cbf5-4366-a8dc-43181dae5c04": {
+        "x": 2453.8041800367237,
+        "y": 1196.8428371890918
+      },
+      "card_72d1ee97-ba9f-42f3-8cd5-b2db86834df8": {
+        "x": 2149.82927397405,
+        "y": 1023.5820776847894
+      },
+      "card_51e52191-619b-4815-ab2a-3bab8e26674e": {
+        "x": 1844.4746826940984,
+        "y": 776.5991114552701
+      }
+    },
+    "view": {
+      "zoom": 0.41573553589273093,
+      "panX": -130.42597702296314,
+      "panY": -187.35757994455867
+    },
+    "viewInitialized": false,
+    "canvasViewState": "all",
+    "exportedAt": "2026-07-25T20:15:49.515Z",
+    "currentScreen": "board",
+    "classifyPhase": false,
+    "mode": "pod",
+    "sorting": {
+      "currentIndex": 9,
+      "decisions": {
+        "item_02": "signal",
+        "item_03": "signal",
+        "item_09": "signal",
+        "item_10": "signal",
+        "item_43": "signal",
+        "item_ca52c0c9-be6a-4857-a348-a38351572b54": "noise",
+        "item_c37cc5b2-d05b-4deb-bea6-3d5963d54021": "signal",
+        "item_fb575c67-e5c8-4daf-ac2a-af7215dfe39a": "signal",
+        "item_e5ea1528-9b9b-43fe-ae21-36765465d2d1": "signal"
+      }
+    },
+    "connectsMade": 9
+  }
+}
